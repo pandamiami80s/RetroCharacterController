@@ -54,10 +54,9 @@ public class PlayerMovement : MonoBehaviour
     
 
 
-
     void Start()
     {
-        //Cursor.lockState = CursorLockMode.Locked;
+        Cursor.lockState = CursorLockMode.Locked;
 
         // Crouch store default values to revert back
         crouchSpeedDefault = movementSpeed;
